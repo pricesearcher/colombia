@@ -1,0 +1,65 @@
+
+// $primary: #3587E6;
+$blood-blue: #0076ff;
+$pablo-blue: #0166d8;
+$deep-blue: #003366;
+$marine-blue: #003366; // deprecated name
+$crystal-blue: #c8f1f9;
+$hover-blue: #0066DD;
+
+$dark-blue: #2A6CB8;
+$light-green: #24DC85;
+$dark-green: #1DAC68;
+$light-grey: #CED4DA;
+$discount-green: #25DC85;
+$shamrock-green: #00D06E;
+$discount-red: #FF2424;
+$highlight-yellow: #FFE38F;
+
+$charcoal-grey: #373C42;
+$divider-grey: #DCDCDC;
+$input-grey: #495057;
+$off-white-grey: #ECECEC;
+$brown-grey: #9B9B9B;
+$lighter-grey: #FAFAFA;
+$darker-grey: #D8D8D8;
+$dark-grey: #212529;
+$promo-grey: #5B5B5B;
+$footer-grey: #F2F2F2;
+$brand-grey: #BBBBBB;
+$promo-description: #B4B4B4;
+$footer-link-alt: #A9A9A9;
+$download-green: #00FF86;
+
+$promoted-blue-light: #EDFAFF;
+$promoted-blue-dark: #1DC3F7;
+
+
+
+$apple-green: #70BA20;
+$apple-green-dark: #599419;
+$facebook-blue: #3B5998;
+$facebook-blue-dark: #2F4779;
+$whatsapp-green: #54CC61;
+$whatsapp-green-dark: #43a34d;
+$twitter-blue: #55ACEE;
+$twitter-blue-dark: #4489BE;
+$brownish-grey: #656565;
+$brownish-grey-dark: #505050;
+$wishlist-pink: #DE0D92;
+$wishlist-pink-dark: #B10A74;
+
+$mobile-landscape-min-width: 480px;
+$mobile-max-width: 767px;
+$tablet-min-width: 768px;
+$tablet-max-width: 991px;
+$tablet-landscape-max-width: 1024px;
+$small-monitor-min-width: 992px;
+$small-monitor-max-width: 1199px;
+$large-monitor-min-width: 1200px;
+
+$product-image-width: 200px;
+$product-image-padding: 11px;
+$product-image-border: 0.5;
+$product-margin: 10px;
+$product-tile-width: ($product-image-width + (2 * $product-image-padding) + (2 * $product-image-border));
