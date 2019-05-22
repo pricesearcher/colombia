@@ -9,12 +9,14 @@ WORKDIR /app
 
 ADD package.json package.json
 ADD package-lock.json package-lock.json
-ADD src/config/docker_entrypoint.sh docker_entrypoint.sh
-RUN chmod u+x /app/docker_entrypoint.sh
+ADD src/config/docker_entrypoint.sh /root/docker_entrypoint.sh
+RUN chmod u+x /root/docker_entrypoint.sh
 
 ARG GITHUB_TOKEN
 
 # Add rewrite rule to authenticate with Github or private repos
 RUN git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
 
-ENTRYPOINT [ "/app/docker_entrypoint.sh" ]
+RUN npm install
+
+ENTRYPOINT [ "/root/docker_entrypoint.sh" ]
