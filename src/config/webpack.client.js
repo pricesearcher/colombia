@@ -1,10 +1,8 @@
 
 const Path = require("path");
-// const Pkg = require("../package.json");
-// const Webpack = require("webpack");
 // const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
-// const BuildVars = require("../assets/build_vars.json");
+const BuildVars = require("../../build/vars.json");
 
 
 module.exports = (env, argv) => {
@@ -61,7 +59,7 @@ module.exports = (env, argv) => {
     output: {
       filename: "[name].min.js",
       // restore this setting when venezuela can deduce the latest cache_name
-      path: Path.resolve(__dirname, "../../build/assets/webpack")
+      path: Path.resolve(__dirname, "../../build/", BuildVars.cache_name)
       // path: Path.resolve(__dirname, "../assets/webpack"),
     },
     performance: {

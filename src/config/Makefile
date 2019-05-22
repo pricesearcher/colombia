@@ -33,7 +33,7 @@ jenkins_clean:
 
 # Make Target Group 2: build
 
-build: build/vars.json build_webpack
+build: build/vars.json build_webpack build_assets
 	@echo "⚒ build"
 
 build_docker:
@@ -46,6 +46,11 @@ build/vars.json:
 	@echo "⚒ build/vars.json"
 	node src/tools/setVars.js $(ENV) $(GIT_BRANCH) $(CACHE_NAME)
 	cat build/vars.json
+
+build_assets:
+	@echo "⚒ build_assets"
+#	cp src/header/index.html build/index.html
+	node src/tools/convertEJS.js src/header/index.ejs build/index.html
 
 build_webpack:
 	@echo "⚒ build_webpack"

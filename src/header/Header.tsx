@@ -22,7 +22,7 @@ class Header extends React.Component<Props, State> {
 
   public render(): JSX.Element {
     return (
-      <div>
+      <div className="l-header">
         Random number: {this.state.rand}
       </div>
     );
