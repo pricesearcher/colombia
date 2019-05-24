@@ -33,7 +33,7 @@ jenkins_clean:
 
 # Make Target Group 2: build
 
-build: build/vars.json build_webpack build_assets
+build: build/vars.json build_client build_server build_assets
 	@echo "⚒ build"
 
 build_docker:
@@ -52,13 +52,19 @@ build_assets:
 #	cp src/header/index.html build/index.html
 	node src/tools/convertEJS.js src/header/index.ejs build/index.html
 
-build_webpack:
-	@echo "⚒ build_webpack"
-	npx webpack --mode=production --config src/config/webpack.client.js
+build_client:
+	@echo "⚒ build_client"
+#	npx webpack --mode=production --config src/config/webpack.client.js
+	npx parcel build src/header/Header.tsx -d build/$(CACHE_NAME) --out-file app_header.min.js
 
 jenkins_build: build_docker
 	@echo "⚒ jenkins_build"
 	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make build && ls -laR /app/build"
+
+build_server:
+	@echo "⚒ build_server"
+#	npx webpack --mode=production --config src/config/webpack.client.js
+	npx parcel build src/server/local.ts -d build/server --target=node --out-file local.js
 
 
 # Make Target Group 3: test
