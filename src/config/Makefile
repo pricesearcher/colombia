@@ -1,12 +1,13 @@
 
 # Standard Makefile variables
 
-NAME = colombia
+APP_NAME = colombia
 ENV ?= dev
 PWD = $(shell pwd)
+REGION = eu-west-1
 CACHE_NAME := $(shell node src/tools/getCacheName.js)
 GIT_BRANCH ?= $(shell git rev-parse --abbrev-ref HEAD)
-DOCKER_IMAGE_NAME = pricesearcher/$(NAME)_$(GIT_BRANCH)
+DOCKER_IMAGE_NAME = pricesearcher/$(APP_NAME)_$(GIT_BRANCH)
 DOCKER_TTY = -it
 ifdef OS
     DOCKER_TTY = -i
