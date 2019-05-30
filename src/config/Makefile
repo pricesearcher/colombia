@@ -29,7 +29,7 @@ clean:
 
 jenkins_clean:
 	@echo "⚒ jenkins_clean"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make clean"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile clean"
 
 
 # Make Target Group 2: build
@@ -58,14 +58,14 @@ build_client:
 #	npx webpack --mode=production --config src/config/webpack.client.js
 	npx parcel build src/header/Header.tsx -d build/$(CACHE_NAME) --out-file app_header.min.js
 
-jenkins_build: build_docker
-	@echo "⚒ jenkins_build"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make build && ls -laR /app/build"
-
 build_server:
 	@echo "⚒ build_server"
 #	npx webpack --mode=production --config src/config/webpack.client.js
 	npx parcel build src/server/local.ts -d build/server --target=node --out-file local.js
+
+jenkins_build: build_docker
+	@echo "⚒ jenkins_build"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile build && ls -laR /app/build"
 
 
 # Make Target Group 3: test
@@ -75,7 +75,7 @@ test:
 
 jenkins_test:
 	@echo "⚒ jenkins_test"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make test"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile test"
 
 
 # Make Target Group 4: deploy
@@ -85,7 +85,7 @@ deploy:
 
 jenkins_deploy:
 	@echo "⚒ jenkins_deploy"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make deploy"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile deploy"
 
 
 # Make Target Group 5: start/stop/watch
