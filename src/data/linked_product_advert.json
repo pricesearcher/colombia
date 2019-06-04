@@ -1,0 +1,728 @@
+{
+  "body": {
+    "expanded_query": false,
+    "approximate_result_count": 1,
+    "pages": {
+      "current": 1,
+      "total": 1
+    },
+    "products": [
+      [
+        {
+          "merchant": "Currys",
+          "description": "Top features: - Lightning fast performance with A10 Fusion chip - 8 MP camera delivers stunning photos and Full HD video - Augmented Reality lets you merge the real and virtual world - Long battery life covers your entire working day - Thin, light & durable for advanced computing on the go Lightning fast performance The iPad offers fluidity that exceeds many computers. With the A10 Fusion chip you're able to work super quick, whether you enjoy graphic-heavy gaming, learning with augmented reality, or editing with Ultra HD video. No matter what apps you love to use, the iPad delivers speedy performance and effortless multitasking. Facetime your friend about your shared coursework project and make edits at the same time. It's compatible with Apple Pencil (sold separately), which lets you annotate, sketch and much more.8 MP camera Do more than photo and video with the front and rear cameras on the iPad. Take gorgeous panoramic images or slo-mo footage up to 120 fps. Scan documents in seconds, or record those priceless moments in beautiful 1080p clarity. And with its beautiful 9.7\u201d Retina display screen, videos, photos, and apps are more captivating than ever before. Augmented Reality Merge real and virtual worlds with Augmented Reality, using your environment to learn in new and engaging ways. From educational apps that depict the solar system in front of you, to interior design apps that show you how a particular look can suit your home, the iPad makes it all possible. The line between real and virtual has never been so thin. Long battery life Leave your charger at home without the worry. The iPad has a huge 10 hour battery life designed to work and play efficiently throughout the whole day, so you won't have to scramble for a plug socket or USB port come the afternoon. Thin, light and durable Weighing less than half a kilo and only 7.5 mm thick, the iPad is crafted with full portability in mind. Compatible with all Bluetooth keyboards, it can be used just like a home PC with no less efficiency at home, at school, at work, or on the commute. Thanks to its compact size, you can tackle complex assignments and big projects wherever you are.",
+          "ps_category_key": "wrong/category",
+          "ps_category": "Wrong\/Category",
+          "merchant_key": "currys.co.uk",
+          "product_name": "APPLE 9.7\" iPad - 32 GB, Gold (2018)",
+          "price_history": {
+            "2018-03-29": "319.00"
+          },
+          "delivery_cost": null,
+          "latest_price": "319.00",
+          "product_id": "currys.co.uk_10178838_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple - WRONG BRAND NAME",
+          "merchant_deep_link": "https:\/\/www.currys.co.uk\/gbuk\/computing\/tablets-and-ereaders\/tablets\/apple-9-7-ipad-32-gb-gold-2018-10178838-pdt.html?istCompanyId=bec25c7e-cbcd-460d-81d5-a25372d2e3d7&istItemId=-xmxqxllmpx&istBid=tztx",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/invalid_image_path.jpeg",
+          "merchant_star_rating": 2,
+          "merchant_review_count": 13447
+        },
+        {
+          "merchant": "ebuyer.com",
+          "description": "Apple iPad (6th Gen) 9. 7 32GB WIFI, A10 Fusion chip 64bit, M10 Coprocessor, 32GB SSD, 9. 7 IPS Retina 2048x1536, WIFI, 8mp + 1. 2mp Camera, Gold Like a computer. Unlike any computer. If the computer were invented today, what would it look like? It would be powerful enough for any task. So mobile you could take it everywhere. And so intuitive you could use it any way you wanted -- with touch, a keyboard or even a pencil. 1 In other words, it wouldn't really be a \"computer\". It would be the new iPad A10 Fusion chip. Engineered for performance. 64 bit architecture. Four-core design. Over 3. 3 billion transistors. Translation: iPad is incredibly fast. Which comes in handy when you want to edit a 4K video, play graphics-intensive games or experience the latest augmented reality apps. It multitasks easily. So you can too. iPad packs enough power to use multiple apps all at once. Work on your business plan while doing research on the web while making a Face Time call to a colleague at the same time. It's even easier than it sounds. The most immersive way to experience augmented reality. Augmented reality (AR) is a new technology that brings virtual objects into the real world. And every aspect of iPad -- from the display to the processing power to the cameras to the motion sensors -- is designed to make AR apps more magical than ever before. Processor A10 Fusion chip with 64 bit architecture Embedded M10 coprocessor Storage 32GB Software Operating System: iOS 11 Display 9. 7-inch (diagonal) LED-backlit Multi-Touch display with IPS technology Retina Display Fingerprint-resistant oleo phobic coating Supports Apple Pencil (not included) Resolution: 2048x1536 at 264 ppi Audio and Video Face Time video + audio iPad to any Face Time-enabled device over Wi Fi Networking Wi Fi (802. 11a\/b\/g\/n\/ac); dual band (2. 4GHz and 5GHz); HT80 with MIMO Bluetooth 4. 2 technology Power Supply Built-in 32. 4-watt-hour rechargeable lithium-polymer battery Up to 10 hours of surfing the",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "ebuyer.com",
+          "product_name": "Apple iPad (6th Gen) 9.7 32GB WIFI, A10 Fusion chip 64bit, M10 Coproce",
+          "price_history": {
+            "2018-03-29": "343.98",
+            "2018-04-04": "340.98",
+            "2018-04-18": "328.98",
+            "2018-04-26": "328.72",
+            "2018-06-08": "343.98",
+            "2018-06-13": "328.98",
+            "2018-07-09": "328.72",
+            "2018-07-20": "318.99",
+            "2018-08-02": "329.40",
+            "2018-08-10": "341.99",
+            "2018-08-14": "329.40",
+            "2018-08-16": "341.99",
+            "2018-08-20": "329.99",
+            "2018-08-22": "318.99",
+            "2018-08-23": "329.99",
+            "2018-08-24": "329.40",
+            "2018-09-11": "341.99",
+            "2018-09-12": "341.88",
+            "2018-09-15": "318.99",
+            "2018-09-25": "341.88",
+            "2018-09-26": "329.40",
+            "2018-09-29": "318.99",
+            "2018-10-09": "329.40",
+            "2018-10-10": "318.99",
+            "2018-10-17": "344.24",
+            "2018-10-19": "318.99",
+            "2018-10-23": "299.99",
+            "2018-10-30": "299.98",
+            "2018-11-05": "299.99",
+            "2018-11-06": "309.78",
+            "2018-11-08": "299.99",
+            "2018-11-13": "321.53",
+            "2018-11-14": "323.74",
+            "2018-11-15": "321.53"
+          },
+          "delivery_cost": null,
+          "latest_price": "321.53",
+          "product_id": "ebuyer.com_833695_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.ebuyer.com\/833695-apple-ipad-6th-gen-9-7-32gb-wifi-gold-mrjn2b-a",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 4,
+          "merchant_review_count": 22421
+        },
+        {
+          "merchant": "Laptops Direct",
+          "description": "Lightning fast performance The iPad offers fluidity that exceeds many computers. With the A10 Fusion chip you're able to work super quick whether you enjoy graphic-heavy gaming learning with augmented reality or editing with Ultra HD video.No matter what apps you love to use the iPad delivers speedy performance and effortless multitasking. Facetime your friend about your shared coursework project and make edits at the same time.It's compatible with Apple Pencil (sold separately) which lets you annotate sketch and much more. 8 MP camera Do more than photo and video with the front and rear cameras on the iPad.Take gorgeous panoramic images or slo-mo footage up to 120 fps. Scan documents in seconds or record those priceless moments in beautiful 1080p clarity and with its beautiful 9.7\u201d Retina display screen videos photos and apps are more captivating than ever before. Augmented Reality Merge real and virtual worlds with Augmented Reality using your environment to learn in new and engaging ways.From educational apps that depict the solar system in front of you to interior design apps that show you how a particular look can suit your home the iPad makes it all possible. The line between real and virtual has never been so thin. Long battery life Leave your charger at home without the worry. The iPad has a huge 10 hour battery life designed to work and play efficiently throughout the whole day so you won't have to scramble for a plug socket or USB port come the afternoon.. - Rose Gold",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "laptopsdirect.co.uk",
+          "product_name": "New Apple iPad Wi-Fi 6th Gen 32GB  9.7 Inch Tablet - Rose Gold",
+          "price_history": {
+            "2018-04-24": "314.97",
+            "2018-04-30": "309.97",
+            "2018-05-16": "314.97",
+            "2018-05-23": "309.97",
+            "2018-08-09": "311.97",
+            "2018-08-13": "314.97",
+            "2018-09-06": "309.97",
+            "2018-11-12": "299.97"
+          },
+          "delivery_cost": null,
+          "latest_price": "299.97",
+          "product_id": "laptopsdirect.co.uk_mrjn2ba_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.laptopsdirect.co.uk\/apple-ipad-wi-fi-6th-gen-32gb-9.7-inch-tablet-gold-mrjn2b-a\/version.asp?refsource=LDPriceSearcher",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 4,
+          "merchant_review_count": 6228
+        },
+        {
+          "merchant": "Nike",
+          "description": "Apple iPad Wi-Fi 32GB Gold; 6th Generation iPad (2018 model); 32GB storage; 9.7\" Multi-touch IPS display; 2048x1536 resolution; 64-bit A10 Fusion chip; 8MP rear camera; 1.2MP FaceTime HD camera; Wi\u2010Fi (802.11a\/b\/g\/n\/ac); Dual band - 2.4GHz and 5GHz; Bluetooth 4.2; TouchID sensor; Up to 10 hours battery life; iOS 11; Lightning connector; Now supports Apple Pencil (sold seperately); MRJN2B\/A",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "nike.com",
+          "product_name": "Apple iPad Wi-Fi 32GB Gold",
+          "price_history": {
+            "2018-04-12": "319.00",
+            "2018-05-15": "320.44",
+            "2018-05-16": "319.00",
+            "2018-06-02": "319.52",
+            "2018-06-09": "319.00",
+            "2018-06-13": "316.99",
+            "2018-06-19": "309.27",
+            "2018-06-22": "309.11",
+            "2018-07-05": "315.00",
+            "2018-07-26": "315.53",
+            "2018-08-01": "315.73",
+            "2018-08-02": "315.00",
+            "2018-08-14": "315.53",
+            "2018-08-24": "314.14",
+            "2018-08-25": "315.00",
+            "2018-09-19": "314.70",
+            "2018-09-21": "329.49",
+            "2018-10-03": "330.58",
+            "2018-10-04": "330.36",
+            "2018-10-13": "330.58",
+            "2018-10-14": "333.85",
+            "2018-10-15": "343.32",
+            "2018-10-16": "330.36",
+            "2018-10-17": "319.00",
+            "2018-10-25": "318.16",
+            "2018-11-02": "315.06"
+          },
+          "delivery_cost": null,
+          "latest_price": "315.06",
+          "product_id": "box.co.uk_w190560_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "http:\/\/www.box.co.uk\/Apple-iPad-Wi-Fi-32GB-Gold_2325807.html",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 4,
+          "merchant_review_count": 1719
+        },
+        {
+          "merchant": "Laptops Direct",
+          "description": "Lightning fast performance The iPad offers fluidity that exceeds many computers. With the A10 Fusion chip you're able to work super quick whether you enjoy graphic-heavy gaming learning with augmented reality or editing with Ultra HD video.No matter what apps you love to use the iPad delivers speedy performance and effortless multitasking. Facetime your friend about your shared coursework project and make edits at the same time.It's compatible with Apple Pencil (sold separately) which lets you annotate sketch and much more. 8 MP camera Do more than photo and video with the front and rear cameras on the iPad.Take gorgeous panoramic images or slo-mo footage up to 120 fps. Scan documents in seconds or record those priceless moments in beautiful 1080p clarity and with its beautiful 9.7\u201d Retina display screen videos photos and apps are more captivating than ever before. Augmented Reality Merge real and virtual worlds with Augmented Reality using your environment to learn in new and engaging ways.From educational apps that depict the solar system in front of you to interior design apps that show you how a particular look can suit your home the iPad makes it all possible. The line between real and virtual has never been so thin. Long battery life Leave your charger at home without the worry. The iPad has a huge 10 hour battery life designed to work and play efficiently throughout the whole day so you won't have to scramble for a plug socket or USB port come the afternoon.. - Rose Gold",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "laptopsdirect.co.uk",
+          "product_name": "Apple iPad tablet A10 32 GB Gold",
+          "price_history": {
+            "2018-08-06": "317.69",
+            "2018-08-11": "325.94",
+            "2018-08-16": "317.69",
+            "2018-09-12": "325.94",
+            "2018-09-27": "317.69",
+            "2018-10-13": "325.94",
+            "2018-10-25": "317.69",
+            "2018-11-10": "325.94"
+          },
+          "delivery_cost": null,
+          "latest_price": "325.94",
+          "product_id": "transparent-uk.com_mrjn2ba_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/transparent-uk.com\/apple-ipad-tablet-a10-32-gb-gold-mrjn2b-a.html",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 4,
+          "merchant_review_count": 290
+        },
+        {
+          "merchant": "CCL Computers",
+          "description": "If the computer were invented today what would it look like? It would be powerful enough for any task. So mobile you could take it everywhere. And so intuitive you could use it any way you wanted - with touch a keyboard or even a pencil.1 In other words it wouldn't really be a 'computer.' It would be the new iPad. A10 Fusion chip. Engineered for performance.  64-bit architecture. Four-core design. Over 3.3 billion transistors. Translation: iPad is incredibly fast. Which comes in handy when you want to edit a 4K video play graphics-intensive games or experience the latest augmented reality apps. iPad packs enough power to use multiple apps all at once. Work on your business plan while doing research on the web while making a FaceTime call to a colleague at the same time. It's even easier than it sounds. Augmented reality (AR) is a new technology that brings virtual objects into the real world. And every aspect of iPad - from the display to the processing power to the cameras to the motion sensors - is designed to make AR apps more magical than ever before. Augmented reality apps fundamentally change what you're capable of. Learn something new whether you're inside or outside a classroom. Solve everyday problems. Immerse yourself in entertainment and games. With iPad and AR the possibilities are endless. iPad has always been a great way to get what's in your mind down on the page. And now you have a new way to do it. Write notes paint a watercolour or sign a lease. With Apple Pencil you'll do it all with pixel-perfect precision and responsiveness. Use it as naturally as you would a pencil while doing a whole lot more than you would with one.",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "cclonline.com",
+          "product_name": "Apple iPad 2018 Quad Core 9.7\" IPS Apple iOS Gold 32GB Tablet,",
+          "price_history": {
+            "2018-09-05": "317.05",
+            "2018-09-06": "318.99",
+            "2018-09-07": "317.05",
+            "2018-09-10": "318.99",
+            "2018-09-11": "325.71",
+            "2018-09-13": "347.42",
+            "2018-09-14": "325.71",
+            "2018-09-26": "317.05",
+            "2018-10-11": "358.62",
+            "2018-10-12": "325.71",
+            "2018-10-13": "358.62",
+            "2018-10-17": "333.24",
+            "2018-10-18": "329.11",
+            "2018-10-22": "325.71",
+            "2018-10-23": "329.11",
+            "2018-10-24": "317.05",
+            "2018-11-08": "325.71",
+            "2018-11-14": "333.24",
+            "2018-11-15": "325.71"
+          },
+          "delivery_cost": null,
+          "latest_price": "325.71",
+          "product_id": "cclonline.com_tab1357_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.cclonline.com\/product\/252900\/MRJN2B\/A\/Tablets\/Apple-iPad-9-7-inch-Multi-Touch-Tablet-PC-32GB-A10-Chip-WiFi-Bluetooth-Camera-Retina-Display-iOS-11-Touch-ID-Gold-\/TAB1357\/",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 5,
+          "merchant_review_count": 4689
+        },
+        {
+          "merchant": "Laptops Direct",
+          "description": "Lightning fast performance The iPad offers fluidity that exceeds many computers. With the A10 Fusion chip you're able to work super quick whether you enjoy graphic-heavy gaming learning with augmented reality or editing with Ultra HD video.No matter what apps you love to use the iPad delivers speedy performance and effortless multitasking. Facetime your friend about your shared coursework project and make edits at the same time.It's compatible with Apple Pencil (sold separately) which lets you annotate sketch and much more.",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "laptopsdirect.co.uk",
+          "product_name": "Apple iPad 6th Gen 9.7 32GB Wi-Fi Rose Gold - Refurbished Excellent",
+          "price_history": {
+            "2018-09-28": "259.90"
+          },
+          "delivery_cost": null,
+          "latest_price": "259.90",
+          "product_id": "handtec.co.uk_b5abece90b511d8a4614ce67ff2ff5bb_gb1211",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.handtec.co.uk\/products\/apple-ipad-6th-gen-9-7-32gb-wi-fi-rose-gold-refurbished-excellent",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 4,
+          "merchant_review_count": 13077
+        },
+        {
+          "merchant": "Littlewoods",
+          "description": "iPad. Like a computer. Unlike any computer.Create, learn, work and play like never before. An immersive 9.7-inch Multi-Touch Retina display. A10 Fusion chip with the power and capability you\u2019d expect from a computer. Now supports Apple Pencil. 8MP camera. FaceTime HD camera. Touch ID and Apple Pay. Wi-Fi. All-day battery life. Over a million apps available on the App Store, including augmented reality experiences. A thin, durable, aluminium design that weighs less than half a kilo. And iOS 11 makes iPad more powerful, personal and intelligent, so you can do more than ever before. iPad. There\u2019s nothing else quite like it.Blue Tooth: YData Storage Capacity: 32 GbDepth: 10 MMDisplay Size: 9inDongle Required: NHard Drive Storage: 32 GbHeight: 320 MMWidth: 200 MMWifi Enabled: Y",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "littlewoods.com",
+          "product_name": "Apple iPad (2018), 32Gb, Wi-Fi, 9.7in with Optional Apple Pencil - Gold",
+          "price_history": {
+            "2018-05-25": "409.99"
+          },
+          "delivery_cost": null,
+          "latest_price": "409.99",
+          "product_id": "littlewoods.com_65a5784ca9be25e452bf273c2071262d_gb1211",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.littlewoods.com\/apple-ipadnbsp2018-32gbnbspwi-fi-97innbspwith-optional-apple-pencil--nbspgold\/1600262921.prd",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 1,
+          "merchant_review_count": 2932
+        },
+        {
+          "merchant": "TekDirect",
+          "description": "The new 9.7-inch iPad Like a computer. Unlike any computer. If the computer were invented today, what would it look like? It would be powerful enough for any task. So mobile you could take it everywhere. And so intuitive you could use it any way you wanted \u2014 with touch, a keyboard, or even a pencil. In other words, it wouldn\u2019t really be a \u201ccomputer.\u201d It would be the new iPad. Power for what you do today. And what you\u2019ll discover tomorrow. A10 Fusion chip. Engineered for performance. 64-bit architecture. Four-core design. Over 3.3 billion transistors. Translation: iPad is incredibly fast. Which comes in handy when you want to edit a 4K video, play graphics-intensive games, or experience the latest augmented reality apps. It multitasks easily. So you can, too. iPad packs enough power to use multiple apps all at once. Work on your business plan while doing research on the web while making a FaceTime call to a colleague at the same time. It\u2019s even easier than it sounds. The most immersive way to experience augmented reality. Augmented reality (AR) is a new technology that brings virtual objects into the real world. And every aspect of iPad \u2014 from the display to the processing power to the cameras to the motion sensors \u2014 is designed to make AR apps more magical than ever before. Augmented reality apps fundamentally change what you\u2019re capable of. Learn something new whether you\u2019re inside or outside a classroom. Solve everyday problems. Immerse yourself in entertainment and games. With iPad and AR, the possibilities are endless. So versatile, it\u2019s your notepad, camera, and everything in between. Apple Pencil. Dream it up. Jot it down. iPad has always been a great way to get what\u2019s in your mind down on the page. And now you have a new way to do it. Write notes, paint a watercolor, or sign a lease. With Apple Pencil, you\u2019ll do it all with pixel-perfect precision and responsiveness. Use it as naturally as you would a pencil, while doing a whole lot more than you would with one. Two great cameras that do more than take great photos. Built-in front and back cameras allow you to shoot gorgeous photos and cinematic videos, scan documents, make FaceTime calls, or even create a floor plan using augmented reality. Connect and compose with any Bluetooth keyboard. Need to sit down and hammer out a research paper, email, or your blockbuster screenplay? iPad has an intuitive onscreen keyboard, but it's also compatible with all kinds of Bluetooth keyboards. Loaded with powerful built-in apps. Cut a track with GarageBand, make a compelling presentation with Keynote, or shoot and edit a short film with iMovie. iPad comes with a collection of apps from Apple so you can start creating right out of the box. With over a million apps for iPad, iPad can do countless things. Every one of the 1.3 million iPad apps has been designed specifically for the large iPad display. There are apps for anything you want to do \u2014 photography, drawing, or just getting some work done. And finding your new favorite apps is as easy as visiting the App Store, where our editors are always curating the best of what\u2019s new and noteworthy. Built to go wherever your ideas take you. Thin, light, durable. And in three great finishes. At just one pound and 7.5 mm thin, iPad is a breeze to take wherever you go. It\u2019s built to be durable, so you have peace of mind knowing you can take it anywhere. And it\u2019s just as beautiful as it is portable \u2014 available in silver, space gray, and a new gold. Wi-Fi and LTE. Get online anywhere. iPad features Wi-Fi speeds up to 866 Mbps, LTE speeds up to 300 Mbps, and Apple SIM, which connects you to cellular data networks in over 180 countries and regions.2 So you\u2019re always free to catch up on your favorite show during your commute, send an email on the fly, or post vacation photos during your trip. 10 hours of battery life on a single charge. With all-day battery life, iPad gives you more time to surf, write, draw, work, shop, and whatever else you need to do between charges. Keep all your stuff safe, organized, and always with you. iCloud keeps things like your photos, files, and notes safe and conveniently available on all your devices. And the Files app puts all your files of any type in one place, including those you store with cloud services like Google Drive, OneDrive, and Box. Incredible technology that\u2019s incredibly simple to use. Swipe, pinch, tap. It\u2019s that easy. iPad is designed so that using it feels like second nature, even if you never have before....",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "tekdirect.co.uk",
+          "product_name": "Apple iPad tablet A10 32 GB Gold",
+          "price_history": {
+            "2018-08-16": "340.37",
+            "2018-08-20": "332.15",
+            "2018-09-11": "340.37",
+            "2018-10-02": "332.15",
+            "2018-10-09": "338.20",
+            "2018-10-12": "346.55",
+            "2018-10-29": "337.02",
+            "2018-10-31": "338.20",
+            "2018-11-12": "346.55"
+          },
+          "delivery_cost": null,
+          "latest_price": "346.55",
+          "product_id": "tekdirect.co.uk_mrjn2ba_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/tekdirect.co.uk\/apple-ipad-tablet-a10-32-gb-gold.html",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": null,
+          "merchant_review_count": null
+        },
+        {
+          "merchant": "PC World",
+          "description": "Top features: - Lightning fast performance with A10 Fusion chip - 8 MP camera delivers stunning photos and Full HD video - Augmented Reality lets you merge the real and virtual world - Long battery life covers your entire working day - Thin, light & durable for advanced computing on the go Lightning fast performance The iPad offers fluidity that exceeds many computers. With the A10 Fusion chip you're able to work super quick, whether you enjoy graphic-heavy gaming, learning with augmented reality, or editing with Ultra HD video. No matter what apps you love to use, the iPad delivers speedy performance and effortless multitasking. Facetime your friend about your shared coursework project and make edits at the same time. It's compatible with Apple Pencil (sold separately), which lets you annotate, sketch and much more.8 MP camera Do more than photo and video with the front and rear cameras on the iPad. Take gorgeous panoramic images or slo-mo footage up to 120 fps. Scan documents in seconds, or record those priceless moments in beautiful 1080p clarity. And with its beautiful 9.7\u201d Retina display screen, videos, photos, and apps are more captivating than ever before. Augmented Reality Merge real and virtual worlds with Augmented Reality, using your environment to learn in new and engaging ways. From educational apps that depict the solar system in front of you, to interior design apps that show you how a particular look can suit your home, the iPad makes it all possible. The line between real and virtual has never been so thin. Long battery life Leave your charger at home without the worry. The iPad has a huge 10 hour battery life designed to work and play efficiently throughout the whole day, so you won't have to scramble for a plug socket or USB port come the afternoon. Thin, light and durable Weighing less than half a kilo and only 7.5 mm thick, the iPad is crafted with full portability in mind. Compatible with all Bluetooth keyboards, it can be used just like a home PC with no less efficiency at home, at school, at work, or on the commute. Thanks to its compact size, you can tackle complex assignments and big projects wherever you are.",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "pcworld.co.uk",
+          "product_name": "APPLE 9.7\" iPad - 32 GB, Gold (2018)",
+          "price_history": {
+            "2018-03-29": "319.00"
+          },
+          "delivery_cost": null,
+          "latest_price": "319.00",
+          "product_id": "pcworld.co.uk_10178838_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.pcworld.co.uk\/gbuk\/computing\/tablets-and-ereaders\/tablets\/apple-9-7-ipad-32-gb-gold-2018-10178838-pdt.html?istCompanyId=9a35962d-802d-4e67-9721-0a3328ca1f02&istItemId=-xmxmqmqipq&istBid=tztx",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 1,
+          "merchant_review_count": 2495
+        },
+        {
+          "merchant": "Laptops Direct",
+          "description": "Lightning fast performance The iPad offers fluidity that exceeds many computers. With the A10 Fusion chip you're able to work super quick whether you enjoy graphic-heavy gaming learning with augmented reality or editing with Ultra HD video.No matter what apps you love to use the iPad delivers speedy performance and effortless multitasking. Facetime your friend about your shared coursework project and make edits at the same time.It's compatible with Apple Pencil (sold separately) which lets you annotate sketch and much more. 8 MP camera Do more than photo and video with the front and rear cameras on the iPad.Take gorgeous panoramic images or slo-mo footage up to 120 fps. Scan documents in seconds or record those priceless moments in beautiful 1080p clarity and with its beautiful 9.7\u201d Retina display screen videos photos and apps are more captivating than ever before. Augmented Reality Merge real and virtual worlds with Augmented Reality using your environment to learn in new and engaging ways.From educational apps that depict the solar system in front of you to interior design apps that show you how a particular look can suit your home the iPad makes it all possible. The line between real and virtual has never been so thin. Long battery life Leave your charger at home without the worry. The iPad has a huge 10 hour battery life designed to work and play efficiently throughout the whole day so you won't have to scramble for a plug socket or USB port come the afternoon.. - Rose Gold",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "laptopsdirect.co.uk",
+          "product_name": "Apple iPad (9.7 inch Multi-Touch) Tablet PC 32GB A10 Chip WiFi Bluetooth Camera Retina Display iOS 11 Touch-ID (Gold)",
+          "price_history": {
+            "2018-07-26": "309.68"
+          },
+          "delivery_cost": null,
+          "latest_price": "309.68",
+          "product_id": "buyur.co.uk_mrjn2ba_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.buyur.co.uk\/apple-ipad-9-7-inch-multi-touch-tablet-pc-32gb-a10-chip-wifi-bluetooth-camera-retina-display-ios-11-touch-id-gold\/?utm_source=GoogleShopping&utm_medium=comparisonshopping",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 3,
+          "merchant_review_count": 312
+        },
+        {
+          "merchant": "Very.co.uk",
+          "description": "iPad. Like a computer. Unlike any computer. Create, learn, work and play like never before. An immersive 9.7-inch Multi-Touch Retina display. A10 Fusion chip with the power and capability you'd expect from a computer. Now supports Apple Pencil. 8MP camera. FaceTime HD camera. Touch ID and Apple Pay. Wi-Fi. All-day battery life. Over a million apps available on the App Store, including augmented reality experiences. A thin, durable, aluminium design that weighs less than half a kilo. And iOS 11 makes iPad more powerful, personal and intelligent, so you can do more than ever before. iPad. There's nothing else quite like it. Blue Tooth: Y Data Storage Capacity: 32 Gb Depth: 10 MM Display Size: 9in Dongle Required: N Hard Drive Storage: 32 Gb Height: 320 MM Width: 200 MM Wifi Enabled: Y - Gold - Unisex - adult",
+          "ps_category_key": "computers-accessories/tablets",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "very.co.uk",
+          "product_name": "Apple Ipad (2018), 32Gb, Wi-Fi, 9.7In  - Apple Ipad",
+          "price_history": {
+            "2018-03-29": "319.00"
+          },
+          "delivery_cost": "3.99",
+          "latest_price": "319.00",
+          "product_id": "very.co.uk_mp3ak_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "NOK",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.very.co.uk\/apple-ipadnbsp2018-32gbnbspwi-fi-97innbspwith-optional-apple-pencil--nbspgold\/1600262921.prd?sku=sku20643209",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 1,
+          "merchant_review_count": 11372
+        },
+        {
+          "merchant": "Scan Computers",
+          "description": "Like A Computer, Unlike Any Computer If the computer were invented today, what would it look like? It would be powerful enough for any task. So mobile you could take it everywhere. And so intuitive you could use it any way you wanted   with touch, a keyboard or even a pencil. In other words, it wouldn t really be a  computer . It would be the new iPad. A10 Fusion Chip Engineered For Performance 64-bit architecture. Four-core design. Over 3.3 billion transistors. Translation: iPad is incredibly fast. Which comes in handy when you want to edit a 4K video, play graphics-intensive games or experience the latest augmented reality apps. It Multitasks Easily, So You Can Too iPad packs enough power to use multiple apps all at once. Work on your business plan while doing research on the web while making a FaceTime call to a colleague at the same time. It s even easier than it sounds. The Most Immersive Way to Experience Augmented Reality Augmented reality (AR) is a new technology that brings virtual objects into the real world. And every aspect of iPad   from the display to the processing power to the cameras to the motion sensors   is designed to make AR apps more magical than ever before.    Augmented reality apps fundamentally change what you re capable of. Learn something new whether you re inside or outside a classroom. Solve everyday problems. Immerse yourself in entertainment and games. With iPad and AR, the possibilities are endless. Apple Pencil, Dream It Up, Jot It Down iPad has always been a great way to get what s in your mind down on the page. And now you have a new way to do it. Write notes, paint a watercolour or sign a lease. With Apple Pencil, you ll do it all with pixel-perfect precision and responsiveness. Use it as naturally as you would a pencil, while doing a whole lot more than you would with one. Two Great Cameras That Do More than Take Great Photos Built-in front and back cameras allow you to shoot gorgeous photos and cinematic videos, scan documents, make FaceTime calls or even create a floor plan using augmented reality. Connect and Compose With Any Bluetooth Keyboard Need to sit down and hammer out a research project, email or your blockbuster screenplay? iPad has an intuitive onscreen keyboard, but it s also compatible with all kinds of Bluetooth keyboards. Loaded with Powerful Built-In Apps Cut a track with GarageBand, make a compelling presentation with Keynote, or shoot and edit a short film with iMovie. iPad comes with a collection of apps from Apple so you can start creating straight out of the box. With Over a Million Apps for iPad, iPad can Do Countless Things Every one of the 1.3 million iPad apps has been designed specifically for the large iPad display. There are apps for anything you want to do   photography, drawing or just getting some work done. And finding your new favourite apps is as easy as visiting the App Store, where our editors are always curating the best of what s new and noteworthy. Thin, Light, Durable, and In Three Great Finishes At less than half a kilo and only 7.5mm thin, iPad is a breeze to take wherever you go. It s built to be durable, so you have peace of mind knowing you can take it anywhere. And it s just as beautiful as it is portable   available in silver, space grey and a new gold. 10 Hours of Battery Life on a Single Charge With all-day battery life, iPad gives you more time to surf, write, draw, work, shop and whatever else you need to do between charges. Keep All Your Stuff Safe, Organised and Always With You iCloud keeps things like your photos, files and notes safe and conveniently available on all your devices. And the Files app puts all your files of any type in one place, including those you store with cloud services like Google Drive, OneDrive and Box. Swipe, Pinch, Tap. It s That Easy iPad is designed so that using it feels like second nature, even if you never have before. Multi-Touch gestures let you do things like browse photos, edit documents and organise your files simply by touching the beautiful 9.7-inch Retina display. Dock, Get To Your Favourite Apps Fast With iOS 11, the new Dock is just a swipe away. So it s easy to get to an app from another app without having to go back to the Home screen. Add your favourite apps to the Dock. Or multitask in a flash by opening apps directly from it. Drag From Here, Drop to There Designed specifically for Multi-Touch, drag and drop makes it easy to move text, images and files between apps just by touching them. Make your document more engaging by dropping in a photo. Or simply add an attachment to your email. You can even select multiple items to move with a few taps of a finger. Retina Display, As Beautiful As It Is Functional The 9.7-inch Retina display is an immersive way to experience all the things you can do with iPad.",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "scan.co.uk",
+          "product_name": "Apple iPad 9.7\" 32GB Rose Gold Tablet",
+          "price_history": {
+            "2018-07-26": "318.98",
+            "2018-08-10": "312.49",
+            "2018-09-06": "319.00",
+            "2018-11-11": "311.44"
+          },
+          "delivery_cost": null,
+          "latest_price": "311.44",
+          "product_id": "scan.co.uk_91110_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "USD",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.scan.co.uk\/products\/97-apple-ipad-32gb-gold-ips-retina-2gb-ram-8mp-rearplusfront-facetime-camera-dual-band-ac-wifi-bt-42",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 5,
+          "merchant_review_count": 7305
+        },
+        {
+          "merchant": "Hughes",
+          "description": "MR7JN2B-A 9.7\" IPad with 32GB Memory and A10 Processor in Gold",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "hughes.co.uk",
+          "product_name": "Apple MRJN2B-A",
+          "price_history": {
+            "2018-04-27": "319.99"
+          },
+          "delivery_cost": null,
+          "latest_price": "319.99",
+          "product_id": "hughes.co.uk_apl-mrjn2b-a_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.hughes.co.uk\/product\/computing\/tablet-pc-s\/tablet-pcs\/apple\/mrjn2b-a",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 4,
+          "merchant_review_count": 10413
+        },
+        {
+          "merchant": "Argos",
+          "description": "iPad. Like a computer. Unlike any computer. Create, learn, work, and play like never before. An immersive 9.7-inch Multi-Touch Retina display. A10 Fusion chip with the power and capability youd expect from a computer. Now supports Apple Pencil - sold separately. Advanced 8MP camera. FaceTime HD camera. Touch ID. Fast wireless. All-day battery life. Over a million apps available on the App Store, including augmented reality experiences. And thats all in a thin, durable, aluminium design that weighs just a pound. iOS 11 makes iPad more powerful, personal, and intelligent, so you can do more than ever before. iPad. Theres nothing else quite like it. Display: 9.7in multi-touch screen. LED backlit display with iPS technology. Retina display - features over three million pixels for a more crisp and vibrant experience. 2048 x 1536 resolution at 264 pixels per inch. Fingerprint resistant coating. Features: Support for simultaneous display of multiple languages and characters... - Technology > iPad, tablets and E-readers > iPad - Gold - 32GB - Adult",
+          "ps_category": "Computers & Accessories\/Tablets",
+          "merchant_key": "argos.co.uk",
+          "product_name": "iPad 2018 6th Gen 9.7 Inch Wi-Fi 32GB- Gold",
+          "price_history": {
+            "2018-03-30": "319.00"
+          },
+          "delivery_cost": null,
+          "latest_price": "319.00",
+          "product_id": "argos.co.uk_8145053_gb1111",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.argos.co.uk\/product\/8145053?_$ja=tsid:63813|acid:PriceSearcher|agid:Technology+%2f+iPad%2c+tablets+and+E-readers+%2f+iPad|tid:8145053",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 4,
+          "merchant_review_count": 61610
+        },
+        {
+          "description": "If the computer were invented today, what would it look like? It would be powerful enough for any task. So mobile you could take it everywhere. And so intuitive you could use it any way you wanted - with touch, a keyboard, or even a pencil.1 In other words, it wouldn't really be a 'computer.' It would be the new iPad. A10 Fusion chip. Engineered for performance. 64-bit architecture. Four-core design. Over 3.3 billion transistors. Translation: iPad is incredibly fast. Which comes in handy when you want to edit a 4K video, play graphics-intensive games or experience the latest augmented reality apps. iPad packs enough power to use multiple apps all at once. Work on your business plan while doing research on the web while making a FaceTime call to a colleague at the same time. It's even easier than it sounds. Augmented reality (AR) is a new technology that brings virtual objects into the real world. And every aspect of iPad - from the display to the processing power to the cameras to the motion sensors - is designed to make AR apps more magical than ever before. Augmented reality apps fundamentally change what you're capable of. Learn something new whether you're inside or outside a classroom. Solve everyday problems. Immerse yourself in entertainment and games. With iPad and AR, the possibilities are endless. iPad has always been a great way to get what's in your mind down on the page. And now you have a new way to do it. Write notes, paint a watercolour or sign a lease. With Apple Pencil, you'll do it all with pixel-perfect precision and responsiveness. Use it as naturally as you would a pencil, while doing a whole lot more than you would with one. Main Features 32GB Storage 9.7-inch (diagonal) LED-backlit Multi-Touch display with IPS technology 2048-by-1536 resolution at 264 pixels per inch (ppi) Fingerprint-resistant oleophobic coating Operating System: Apple iOS 11",
+          "ps_category": "Computers & Accessories",
+          "merchant": "Amazon Marketplace",
+          "merchant_key": "marketplace.amazon.co.uk",
+          "product_name": "Apple iPad 2018 Quad Core 9.7\" IPS Apple iOS Gold 32GB Tablet, Bluetooth and Camera",
+          "price_history": {
+            "2018-06-12": "304.00",
+            "2018-06-14": "302.00",
+            "2018-06-16": "300.00",
+            "2018-06-17": "301.00",
+            "2018-06-27": "297.99",
+            "2018-07-01": "295.98",
+            "2018-07-03": "294.58",
+            "2018-07-04": "289.00",
+            "2018-07-06": "279.99",
+            "2018-07-07": "279.98",
+            "2018-07-08": "274.98",
+            "2018-07-09": "274.99",
+            "2018-07-10": "274.58",
+            "2018-07-12": "269.99",
+            "2018-07-13": "268.59",
+            "2018-07-15": "274.58",
+            "2018-07-19": "274.98",
+            "2018-07-20": "268.57",
+            "2018-07-21": "274.58",
+            "2018-07-23": "299.00",
+            "2018-07-25": "291.00",
+            "2018-07-27": "274.98",
+            "2018-07-28": "294.00",
+            "2018-07-30": "292.00",
+            "2018-08-01": "299.00",
+            "2018-08-02": "301.00",
+            "2018-08-03": "309.00",
+            "2018-08-09": "312.00",
+            "2018-08-17": "304.99",
+            "2018-08-20": "318.50",
+            "2018-08-28": "310.00",
+            "2018-09-03": "314.99",
+            "2018-09-10": "318.50",
+            "2018-09-11": "310.49",
+            "2018-09-13": "314.99",
+            "2018-09-15": "298.99",
+            "2018-09-16": "298.00",
+            "2018-09-18": "298.99",
+            "2018-09-19": "298.00",
+            "2018-09-20": "312.00",
+            "2018-09-22": "309.00",
+            "2018-09-26": "299.00",
+            "2018-09-27": "279.00",
+            "2018-09-30": "307.00",
+            "2018-10-06": "306.00",
+            "2018-10-09": "305.00",
+            "2018-10-18": "303.99",
+            "2018-10-19": "305.00",
+            "2018-10-20": "303.99",
+            "2018-10-21": "305.00",
+            "2018-10-31": "299.00",
+            "2018-11-09": "297.00",
+            "2018-11-10": "294.99",
+            "2018-11-11": "297.00",
+            "2018-11-13": "304.00"
+          },
+          "delivery_cost": null,
+          "latest_price": "304.00",
+          "product_id": "B07BTCHV3H_gb1512",
+          "linked_product_id": "LCUJa7Fa",
+          "currency": "GBP",
+          "ps_brand": "Apple",
+          "merchant_deep_link": "https:\/\/www.amazon.co.uk\/gp\/offer-listing\/B07BTCHV3H\/ref=asc_df_B07BTCHV3H1542196800000?ie=UTF8&condition=new&tag=pricesearch01-21&creative=22278&creativeASIN=B07BTCHV3H&linkCode=df2",
+          "ps_image_suffix": "../assets/images/test/chihuahua.jpeg",
+          "brand_image_suffix": "../assets/images/test/bicycle.jpeg",
+          "merchant_star_rating": 2,
+          "merchant_review_count": 10710
+        }
+      ]
+    ],
+    "facets": {
+      "ps_category_key": [
+        {
+          "key": "computers-accessories\/tablets",
+          "count": 15,
+          "attributes": {
+            "name": "Computers & Accessories\/Tablets",
+            "is_leaf_category": true
+          }
+        }
+      ],
+      "merchant_key": [
+        {
+          "key": "argos.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Argos",
+            "description": "Argos is a UK retailer allowing customers to shop online and in-store with fast track same day delivery or pay online and have longer to click & collect in store.",
+            "star_rating": 4,
+            "review_count": 61610,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/sWVcxQfpriMi9MjOu2YBC9Efz_HJdua2RwFX_jYbQ4nY=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9nN3BFV1FEUlE1RGZOMVlNbGxST0c3MUtzaXNVaFNUSXVKSzY4RHpqLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiYXJnb3MuY28udWsifQ==",
+            "logo_suffix": "sWVcxQfpriMi9MjOu2YBC9Efz_HJdua2RwFX_jYbQ4nY=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9nN3BFV1FEUlE1RGZOMVlNbGxST0c3MUtzaXNVaFNUSXVKSzY4RHpqLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiYXJnb3MuY28udWsifQ=="
+          }
+        },
+        {
+          "key": "box.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Box.co.uk",
+            "description": "Founded in 1996, Box Limited is a UK based company selling an extensive range of technology and computing products and services through specialist websites and a retail shop.",
+            "star_rating": 4,
+            "review_count": 1719,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/sUcF24dF2h9_d-C_LV9bSQKpeQWpTRwM86APcDdY8hZQ=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy82Rkw0SnpTS05Hd042MUI4WE1oUzJZYVBEY2xJU05Lb3RCQ0dNNFBHLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiYm94LmNvLnVrIn0=",
+            "logo_suffix": "sUcF24dF2h9_d-C_LV9bSQKpeQWpTRwM86APcDdY8hZQ=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy82Rkw0SnpTS05Hd042MUI4WE1oUzJZYVBEY2xJU05Lb3RCQ0dNNFBHLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiYm94LmNvLnVrIn0="
+          }
+        },
+        {
+          "key": "buyur.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Buyur",
+            "description": "Founded in 2010, Buyur have a passion for technology and have a catalogue of over 50000 quality products including smartphones, laptops, computer software and games consoles.",
+            "star_rating": 3,
+            "review_count": 312,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/ssOVALtRCMPtJASe1an9_v6lnh-AcU6xelayWDFgtM7w=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9yREY4OXRXSFJsQ21kRENEdElueHNDMTNOVndmS1pJZWdrajdGcDV5LnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiYnV5dXIuY28udWsifQ==",
+            "logo_suffix": "ssOVALtRCMPtJASe1an9_v6lnh-AcU6xelayWDFgtM7w=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9yREY4OXRXSFJsQ21kRENEdElueHNDMTNOVndmS1pJZWdrajdGcDV5LnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiYnV5dXIuY28udWsifQ=="
+          }
+        },
+        {
+          "key": "cclonline.com",
+          "count": 1,
+          "attributes": {
+            "name": "CCL Computers",
+            "description": "CCL Computers is a computing company that retails a wide range of computing products such as desktop PCs, Laptops, Tablets, Monitors, etc. In addition, they also sell computer related hardware and consumables ",
+            "star_rating": 5,
+            "review_count": 4689,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/sBK-UUZG1Mao_gZUFpmnAtK5IlWy3n9KXc1tiRNNYGI4=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9Tc3FMNGZaMDBJQkQzU3dRSXN3Q3RPd1A2VVY2b0VYNHRSOGg3b1BuLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiY2Nsb25saW5lLmNvbSJ9",
+            "logo_suffix": "sBK-UUZG1Mao_gZUFpmnAtK5IlWy3n9KXc1tiRNNYGI4=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9Tc3FMNGZaMDBJQkQzU3dRSXN3Q3RPd1A2VVY2b0VYNHRSOGg3b1BuLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiY2Nsb25saW5lLmNvbSJ9"
+          }
+        },
+        {
+          "key": "currys.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Currys",
+            "description": "Currys is part of the Dixons Retail plc, one of Europe's largest specialist electrical retailing and services companies offering large and small appliances, TVs, cameras, computing and accessories.",
+            "star_rating": 2,
+            "review_count": 13447,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/saJ_I_-j763y4DVabBQAaFR_RqN2WUIstoQNT0daHTko=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy90WnlCYmxUQlBKdzZoZkF5S05mS0VTTHNtSjNsZTBjUktxVFJxc1ViLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiY3VycnlzLmNvLnVrIn0=",
+            "logo_suffix": "saJ_I_-j763y4DVabBQAaFR_RqN2WUIstoQNT0daHTko=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy90WnlCYmxUQlBKdzZoZkF5S05mS0VTTHNtSjNsZTBjUktxVFJxc1ViLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiY3VycnlzLmNvLnVrIn0="
+          }
+        },
+        {
+          "key": "ebuyer.com",
+          "count": 1,
+          "attributes": {
+            "name": "ebuyer.com",
+            "description": "Based in East Yorkshire, eBuyer.com is an online electrical retailer. Since 1999 they have been offering customers a huge range of electrical items from digital cameras to laptops.",
+            "star_rating": 4,
+            "review_count": 22421,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/sRoUStfVc-iDXhCh1Ic91oXhm4FwXjyYA1UoEtSBiNOQ=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9qeGlDaXVKYkhlMUROaWdweTk4eXo5eUpocDZPZ0t2VGZSOTU4NVlMLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiZWJ1eWVyLmNvbSJ9",
+            "logo_suffix": "sRoUStfVc-iDXhCh1Ic91oXhm4FwXjyYA1UoEtSBiNOQ=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9qeGlDaXVKYkhlMUROaWdweTk4eXo5eUpocDZPZ0t2VGZSOTU4NVlMLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAiZWJ1eWVyLmNvbSJ9"
+          }
+        },
+        {
+          "key": "handtec.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Handtec",
+            "description": "Handtec is a UK based company and we been around since 2003. We have served over a Million Customers.\n\nAlong with the latest new mobile phones and technology we also sell used and refurbished Apple iphones , Apple Watches , Apple iPads , Samsung Galaxys and many other used and refurbished phones. \n\nWe offer Free Delivery \n14 Day Money Back Guarantee\nInternational Delivery\nRange of couriers to choose from\nFast return service\nWarranty on All Products",
+            "star_rating": 4,
+            "review_count": 13077,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/s8KW_uoQv0_UnXGGivFvykfSrnDn5HJZqre6mRHtM9cY=\/aHR0cHM6Ly9sb2dvLmNsZWFyYml0LmNvbS9oYW5kdGVjLmNvLnVrP3NpemU9MjAw\/eyJtZXJjaGFudF9rZXkiOiAiaGFuZHRlYy5jby51ayJ9",
+            "logo_suffix": "s8KW_uoQv0_UnXGGivFvykfSrnDn5HJZqre6mRHtM9cY=\/aHR0cHM6Ly9sb2dvLmNsZWFyYml0LmNvbS9oYW5kdGVjLmNvLnVrP3NpemU9MjAw\/eyJtZXJjaGFudF9rZXkiOiAiaGFuZHRlYy5jby51ayJ9"
+          }
+        },
+        {
+          "key": "hughes.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Hughes",
+            "description": "Founded in 1921, Hughes Electrical is a specialist electrical retailer and provider of home entertainment and kitchen appliance rentals. The company's distribution facility is in Thetford, UK.",
+            "star_rating": 4,
+            "review_count": 10413,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/sxFRgEvTLm4agMsgZ26d_ZSqCTrNGYuf6efrnU06FjXA=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9QSmpVZ1BuOUtYanVlelA1ZW9vbFNnNEhNVmdDbXVvMzQ0UklBZWtsLmpwZWc=\/eyJtZXJjaGFudF9rZXkiOiAiaHVnaGVzLmNvLnVrIn0=",
+            "logo_suffix": "sxFRgEvTLm4agMsgZ26d_ZSqCTrNGYuf6efrnU06FjXA=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9QSmpVZ1BuOUtYanVlelA1ZW9vbFNnNEhNVmdDbXVvMzQ0UklBZWtsLmpwZWc=\/eyJtZXJjaGFudF9rZXkiOiAiaHVnaGVzLmNvLnVrIn0="
+          }
+        },
+        {
+          "key": "laptopsdirect.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Laptops Direct",
+            "description": "Started in 1999 in Huddersfield, Laptops Direct is an online specialist supplier of laptops, PCs, tablets and computing accessories, as well as TVs and kitchen appliances.",
+            "star_rating": 4,
+            "review_count": 6228,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/seP93b6ME0KtaObmQ1E3Y24Wu_igx2WDGu7taUZexY5s=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9yeVJIdjNFY3piSk1kcjZGWmFqMzFsTFRPTUM0Q0pHTXBVZDZGQzhDLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAibGFwdG9wc2RpcmVjdC5jby51ayJ9",
+            "logo_suffix": "seP93b6ME0KtaObmQ1E3Y24Wu_igx2WDGu7taUZexY5s=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9yeVJIdjNFY3piSk1kcjZGWmFqMzFsTFRPTUM0Q0pHTXBVZDZGQzhDLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAibGFwdG9wc2RpcmVjdC5jby51ayJ9"
+          }
+        },
+        {
+          "key": "littlewoods.com",
+          "count": 1,
+          "attributes": {
+            "name": "Littlewoods",
+            "description": "Littlewoods are an online retailer whose range includes clothing for men, women and children, sports and leisure, homewares, furniture, electricals, games, DVDs, gifts, jewellery and toys.",
+            "star_rating": 1,
+            "review_count": 2932,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/s8M3PYnn6ydrDvA2RUgvK9xTsjz-DMtiFGlIb9HPFoD0=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9NMVFYOHdRak1YdWQ0UTVSY2pEMGxzaTBGRXhnT1ZmQWdSNjRMaThkLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAibGl0dGxld29vZHMuY29tIn0=",
+            "logo_suffix": "s8M3PYnn6ydrDvA2RUgvK9xTsjz-DMtiFGlIb9HPFoD0=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9NMVFYOHdRak1YdWQ0UTVSY2pEMGxzaTBGRXhnT1ZmQWdSNjRMaThkLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAibGl0dGxld29vZHMuY29tIn0="
+          }
+        },
+        {
+          "key": "marketplace.amazon.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Amazon Marketplace",
+            "description": "The world's largest online retailer, Amazon sell a huge range of electronic media, apparel, furniture, food, toys and jewellery, as well as producing its own brand of e-book readers and tablets.",
+            "star_rating": 2,
+            "review_count": 10710,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/sKTKJ76AFbtVW0xg-WlqZfcsY6KHAaBjgjNesUFeoQ4w=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9PUm9mRWFheGduOVlua2RpQWFLdFNTQTRRZjBsODJSV1daOWFyUzg5LmpwZWc=\/eyJtZXJjaGFudF9rZXkiOiAibWFya2V0cGxhY2UuYW1hem9uLmNvLnVrIn0=",
+            "logo_suffix": "sKTKJ76AFbtVW0xg-WlqZfcsY6KHAaBjgjNesUFeoQ4w=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9PUm9mRWFheGduOVlua2RpQWFLdFNTQTRRZjBsODJSV1daOWFyUzg5LmpwZWc=\/eyJtZXJjaGFudF9rZXkiOiAibWFya2V0cGxhY2UuYW1hem9uLmNvLnVrIn0="
+          }
+        },
+        {
+          "key": "pcworld.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "PC World",
+            "description": "A UK based retail chain of computer superstores, PC World was established in 1991 and offers a range of PCs, laptops and peripherals. Some stores also have a KnowHow desk for advice and services.",
+            "star_rating": 1,
+            "review_count": 2495,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/snlGrsNOnhSId0fQvsPBYftGusC2RjzeXY4q5pJdZ_BU=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9sZmlJd0hKNkFEWGh0SnhiWG15Y3NZU0ZMQXQyMjZMRFlybllDNmZvLmpwZWc=\/eyJtZXJjaGFudF9rZXkiOiAicGN3b3JsZC5jby51ayJ9",
+            "logo_suffix": "snlGrsNOnhSId0fQvsPBYftGusC2RjzeXY4q5pJdZ_BU=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9sZmlJd0hKNkFEWGh0SnhiWG15Y3NZU0ZMQXQyMjZMRFlybllDNmZvLmpwZWc=\/eyJtZXJjaGFudF9rZXkiOiAicGN3b3JsZC5jby51ayJ9"
+          }
+        },
+        {
+          "key": "scan.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "Scan Computers",
+            "description": "Scan are a technology based retailer that sells a vast range of products in popular categories such as pro gaming, music audio, computer hardware and much more.",
+            "star_rating": 5,
+            "review_count": 7305,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/stadpK_IX9n1hQv6pqbpMcsM7f4-ltvKqE9op4Mr26ic=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9LdmF4eXB4Vjl4QXFZQ2xDMTRlV05xVjNKZ05neTBSTWNDcGNJRXprLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAic2Nhbi5jby51ayJ9",
+            "logo_suffix": "stadpK_IX9n1hQv6pqbpMcsM7f4-ltvKqE9op4Mr26ic=\/aHR0cHM6Ly93d3cucHJpY2VzZWFyY2hlci5jb20vaW1ncy9LdmF4eXB4Vjl4QXFZQ2xDMTRlV05xVjNKZ05neTBSTWNDcGNJRXprLnBuZw==\/eyJtZXJjaGFudF9rZXkiOiAic2Nhbi5jby51ayJ9"
+          }
+        },
+        {
+          "key": "tekdirect.co.uk",
+          "count": 1,
+          "attributes": {
+            "name": "TekDirect",
+            "description": null,
+            "star_rating": null,
+            "review_count": null,
+            "logo_url": null,
+            "logo_suffix": null
+          }
+        },
+        {
+          "key": "transparent-uk.com",
+          "count": 1,
+          "attributes": {
+            "name": "Transparent Communications",
+            "description": "Transparent Communications is a leading UK supplier of IT, AV and networking hardware, providing products from leading brands including Draytek, Drobo, Netgear, Epson, Casio, Samsung, Smart and Acer.\n\nThe company was founded in 2002 as a family business based in South Wales and specialised largely in a range of communications equipment including phones and bluetooth headsets.\n\nOver the coming years Transparent steered itself more to the business line of products such as routers, switches, IP phones\/cameras and network storage (NAS) devices aswell as moving premises to Oxfordshire.\n\nAfter a successful acquistion of the company in Jan 2011 by brothers Steven and Richard Warwick, the company was moved again to the outskirts of Portsmouth on the South Coast and has experienced dramatic growth, culminating in the launch of a brand new web-site and an expansion in its range of products from 4,500 to over 40,000 products.\n\nDespite the current difficult economic climate Transparent has continued to enjoy success and growth over the past 12 months making us well placed to continuing offer great value and service to our customers throughout 2012 and beyond.\n\nWe always endeavour to provide the highest quality of service to our customers and always appreciate your feedback. If you have any comments, feedback or ideas about improving your shopping experience then please feel free to contact us at any time at support@transparent-uk.com.",
+            "star_rating": 4,
+            "review_count": 290,
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/s-DwPttoo6AWbZ4AWojDC_sPrOXye7U2qpICfrzUWAkA=\/aHR0cHM6Ly9sb2dvLmNsZWFyYml0LmNvbS90cmFuc3BhcmVudC11ay5jb20_c2l6ZT0yMDA=\/eyJtZXJjaGFudF9rZXkiOiAidHJhbnNwYXJlbnQtdWsuY29tIn0=",
+            "logo_suffix": "s-DwPttoo6AWbZ4AWojDC_sPrOXye7U2qpICfrzUWAkA=\/aHR0cHM6Ly9sb2dvLmNsZWFyYml0LmNvbS90cmFuc3BhcmVudC11ay5jb20_c2l6ZT0yMDA=\/eyJtZXJjaGFudF9rZXkiOiAidHJhbnNwYXJlbnQtdWsuY29tIn0="
+          }
+        }
+      ],
+      "ps_brand": [
+        {
+          "key": "Apple",
+          "count": 16,
+          "attributes": {
+            "logo_url": "https:\/\/imageproxy2.pricesearcher.com\/../assets/images/test/bicycle.jpeg",
+            "logo_suffix": "../assets/images/test/bicycle.jpeg"
+          }
+        }
+      ]
+    },
+    "price_range": {
+      "min": "259.90",
+      "max": "409.99",
+      "currency": "GBP"
+    }
+  },
+  "success": true,
+  "error": null
+}

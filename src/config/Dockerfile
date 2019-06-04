@@ -9,8 +9,6 @@ WORKDIR /app
 
 ADD package.json package.json
 ADD package-lock.json package-lock.json
-ADD src/config/docker_entrypoint.sh /root/docker_entrypoint.sh
-RUN chmod u+x /root/docker_entrypoint.sh
 
 ARG GITHUB_TOKEN
 
@@ -18,5 +16,3 @@ ARG GITHUB_TOKEN
 RUN git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
 
 RUN npm install
-
-ENTRYPOINT [ "/root/docker_entrypoint.sh" ]

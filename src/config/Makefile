@@ -16,6 +16,7 @@ DOCKER_RUN_ARGS = \
 		-v "$(PWD)/src":/app/src \
 		-v "$(PWD)/build":/app/build \
 		-v /var/run/docker.sock:/var/run/docker.sock \
+		--user $(shell id -u):$(shell id -g) \
 		--env GIT_BRANCH=$(GIT_BRANCH) \
 		--env ENV=$(ENV) \
 		$(DOCKER_IMAGE_NAME)
@@ -56,12 +57,12 @@ build_assets:
 build_client:
 	@echo "⚒ build_client"
 #	npx webpack --mode=production --config src/config/webpack.client.js
-	npx parcel build src/header/Header.tsx -d build/$(CACHE_NAME) --out-file app_header.min.js
+	npx parcel build src/header/Header.tsx -d build/$(CACHE_NAME) --cache-dir build/.cache --out-file app_header.min.js
 
 build_server:
 	@echo "⚒ build_server"
 #	npx webpack --mode=production --config src/config/webpack.client.js
-	npx parcel build src/server/local.ts -d build/server --target=node --out-file local.js
+	npx parcel build src/server/local.ts -d build/server --target=node --cache-dir build/.cache --out-file local.js
 
 jenkins_build: build_docker
 	@echo "⚒ jenkins_build"
@@ -96,6 +97,7 @@ start_docker:
 
 start_server:
 	@echo "⚒ start_server"
+	node build/server/local.js
 
 stop_server:
 	@echo "⚒ stop_server"
