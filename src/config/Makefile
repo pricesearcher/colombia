@@ -27,6 +27,7 @@ DOCKER_RUN_ARGS = \
 clean:
 	@echo "⚒ clean"
 	rm -fr build/*
+	rm -fr build/.cache/*
 
 jenkins_clean:
 	@echo "⚒ jenkins_clean"
