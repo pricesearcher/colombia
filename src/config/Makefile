@@ -31,7 +31,7 @@ clean:
 
 jenkins_clean:
 	@echo "⚒ jenkins_clean"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile clean"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep clean"
 
 
 # Make Target Group 2: build
@@ -67,7 +67,7 @@ build_server:
 
 jenkins_build: build_docker
 	@echo "⚒ jenkins_build"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile build && ls -laR /app/build"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep build && ls -laR /app/build"
 
 
 # Make Target Group 3: test
@@ -77,7 +77,7 @@ test:
 
 jenkins_test:
 	@echo "⚒ jenkins_test"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile test"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep test"
 
 
 # Make Target Group 4: deploy
@@ -87,7 +87,7 @@ deploy:
 
 jenkins_deploy:
 	@echo "⚒ jenkins_deploy"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "make --file=src/config/Makefile deploy"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep deploy"
 
 
 # Make Target Group 5: start/stop/watch
