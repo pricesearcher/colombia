@@ -8,12 +8,13 @@ interface State {
   rand: number;
 }
 
-export default class Header extends React.Component<Props, State> {
+// Top level app component
+export default class Header2 extends React.Component<Props, State> {
 
   constructor(props) {
     super(props);
     this.state = {
-      rand: Math.ceil(Math.random() * 1000),
+      rand: Math.ceil(Math.random() * 1000) + 1000,
     }
   }
 
@@ -21,7 +22,7 @@ export default class Header extends React.Component<Props, State> {
   public render(): JSX.Element {
     return (
       <div className="l-header">
-        Random number: {this.state.rand}
+        Header 2, Random number: {this.state.rand}
       </div>
     );
   }

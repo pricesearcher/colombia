@@ -1,18 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es3",
-    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "jsx": "react",
-    "outDir": "../build/",
-    "allowSyntheticDefaultImports": false,
-    "resolveJsonModule": true,
     "lib" : [
       "es2015",
       "dom"
-    ]
+    ],
+    "module": "commonjs",
+    "outDir": "../build/",
+    "resolveJsonModule": true,
+    "target": "es3",
   },
   "include": [
-    "**/*.d.ts"
+    "**/*.ts",
+    "**/*.d.ts",
+    "**/*.json",
   ],
   "exclude": [
     "node_modules"
