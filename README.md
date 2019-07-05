@@ -1,6 +1,8 @@
 
 # Colombia
 
+NOTE: this is a **public** repo - deliberately - please DO NOT commit anything that should be Pricesearcher Copyright.
+
 An example project repo to demonstrate an ideal configuration for developing
 JavaScript / Nodes projects in docker.
 
