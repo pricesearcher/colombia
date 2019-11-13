@@ -1,5 +1,5 @@
 
-const Fs = require("fs");
+const fs = require("fs");
 const env_resource = {
   "Protocol": {
     "prod"   : "https",
@@ -21,11 +21,11 @@ const target_filename = "build/vars.json";
 module.exports = (env_name, git_branch) => {
   let data;
   try {
-    data = JSON.parse(Fs.readFileSync(target_filename, {
+    data = JSON.parse(fs.readFileSync(target_filename, {
       encoding: "utf8",
     }));
   } catch (e) {
-    console.error(e);
+    // console.error(e);
   } // silently ignore ENOENT
 
   if (data) {
@@ -50,6 +50,9 @@ const validateExistingVars = (data, env_name, git_branch) => {
 };
 
 const validateBranchName = (git_branch) => {
+  if (!git_branch) {
+    throw new Error(`ERROR git_branch argument is blank`);
+  }
   if (git_branch.length > 37) {
     // aws_iam_role.lambda_role.name = "${var.app_name}-${var.env}-${var.branch}-lambda-role"
     // and this MUST BE <= 64 chars; hence for brazil-nonprod, that leaves 37 left for the branch name
@@ -80,5 +83,5 @@ const calcNewVars = (env_name, git_branch) => {
 
 const writeNewVars = (data) => {
   const out = JSON.stringify(data, null, 2) + "\n";
-  Fs.writeFileSync(target_filename, out); // pretty-print with 2-space indent
+  fs.writeFileSync(target_filename, out); // pretty-print with 2-space indent
 };

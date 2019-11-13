@@ -11,6 +11,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
+ADD just.config.js just.config.js
 ADD package.json package.json
 ADD package-lock.json package-lock.json
 
