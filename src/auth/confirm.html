@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Identity Provider</title>
+  </head>
+  <style>
+    .main {
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <h1>Identity Provider</h1>
+    <div class="main">
+      Are you sure you want to allow
+      <b id="app_name"></b>
+      to be authenticated by us?
+    </div>
+    <script>
+      const params = {};
+      if (location.search && (location.search.length > 1)) {
+        location.search.substr(1).split("&").forEach((part) => {
+          const pair = part.split("=");
+          params[decodeURIComponent(pair[0])] = (pair.length > 1) ? decodeURIComponent(pair[1]) : null;
+        });
+      }
+      document.querySelector("#app_name").innerHTML = (params.app || "Unknown");
+    </script>
+    <div><a href="yes">Yes</a></div>
+    <div><a href="no">No</a></div>
+  </body>
+</html>
