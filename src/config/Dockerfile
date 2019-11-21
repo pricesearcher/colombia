@@ -1,5 +1,5 @@
 
-FROM node:8-stretch
+FROM node:10-stretch
 
 RUN apt-get update && apt-get install -yq libgconf-2-4 zip psmisc nano git-all
 
