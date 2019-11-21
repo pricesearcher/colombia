@@ -131,3 +131,10 @@ task("deploy_ci", () => {
 	const props = getProperties();
 	cp.execSync(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep deploy'`);
 });
+
+
+// Task Group 5: run
+
+task("run_auth", () => {
+	cp.execSync(`cd src && tsc && cd .. && node build/auth/local.js`);
+});
