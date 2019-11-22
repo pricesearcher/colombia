@@ -1,4 +1,5 @@
 
+const chalk = require("chalk");
 const cp = require("child_process");
 const fs = require("fs");
 const { env } = require("yargs");
@@ -27,13 +28,13 @@ const getProperties = (function () {
 		if (!props) {
 			// only attempt to evaluate git branch if not given as command-line arg or environment variable
 			// `git rev-parse` will fail inside docker container, but here should always be available as an env var
-			const git_branch = argv.gitBranch || String(cp.execSync("git rev-parse --abbrev-ref HEAD")).trim();
+			const git_branch = argv.gitBranch || execSync("git rev-parse --abbrev-ref HEAD");
 			props = getVars(argv.envName, git_branch);
 			props.app_name = `${package_info.name}`;
 			props.region   = "eu-west-1";
-			props.user_id  = String(cp.execSync("id -u")).trim();
-			props.group_id = String(cp.execSync("id -g")).trim();
-			props.pwd      = String(cp.execSync("pwd")).trim();
+			props.user_id  = execSync("id -u");
+			props.group_id = execSync("id -g");
+			props.pwd      = process.cwd();
 			props.docker_image_name = `pricesearcher/${props.app_name}_${props.git_branch}`;
 			props.docker_run_args = `\
 -v "${props.pwd}/src":/app/src \
@@ -50,17 +51,56 @@ ${props.docker_image_name}`;
 	};
 })();
 
+const getPipelineDataString = (data) => {
+	// let str = data.toString();
+	// if (str.substr(str.length - 1) === "\n") {
+	// 	str = str.substr(0, str.length - 1);
+	// }
+	// return str;
+	return data.toString()
+		.split("\n")
+		.filter(line => (!!line)) // remove blank lines, incl final newline
+		.map((line, index) => (index === 0) ? line : chalk.gray(line)) // gray-out subsequent lines
+		.join("\n");
+}
+
+const exec = (os_cmd) => {
+	logger.info(`running os command: ${os_cmd}`);
+	return new Promise((resolve, reject) => {
+		const proc = cp.exec(os_cmd);
+		proc.stdout.on("data", (data) => {
+			logger.info(getPipelineDataString(data));
+		});
+		proc.stderr.on("data", (data) => {
+			logger.error(getPipelineDataString(data));
+		});
+		proc.on("exit", (code) => {
+			// logger.info(`Child exited with code ${code}`);
+			if (code === 0) {
+				resolve();
+			} else {
+				reject(code);
+			}
+		});
+	});
+}
+
+const execSync = (os_cmd) => {
+	const out = String(cp.execSync(os_cmd)).trim();
+	logger.info(`running os command: ${os_cmd} -> ${out}`);
+	return out;
+}
 
 // Task Group 1: clean
 
 task("clean", () => {
-	cp.execSync("rm -fr build/*");
-	cp.execSync("rm -fr build/.cache/*");
+	exec("rm -fr build/*");
+	exec("rm -fr build/.cache/*");
 });
 
 task("clean_ci", () => {
 	const props = getProperties();
-	cp.execSync(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep clean'`);
+	exec(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep clean'`);
 });
 
 
@@ -68,27 +108,29 @@ task("clean_ci", () => {
 
 task("build_docker", () => {
 	const props = getProperties();
-	cp.execSync(`docker build --file src/config/Dockerfile --tag ${props.docker_image_name} .`);
-	fs.writeFileSync("build/start_docker.sh", `docker run ${props.docker_tty} --rm -p 8081:8081 ${props.docker_run_args} /bin/bash`, {
-		mode: 0o776,
-		encoding: "utf8",
-	});
+	return exec(`docker build --file src/config/Dockerfile --tag ${props.docker_image_name} .`)
+		.then(() => {
+			fs.writeFileSync("build/start_docker.sh", `docker run ${props.docker_tty} --rm -p 8081:8081 ${props.docker_run_args} /bin/bash`, {
+				mode: 0o776,
+				encoding: "utf8",
+			});
+		});
 });
 
 task("build_assets", () => {
 // cp src/header/index.html build/index.html
-  cp.execSync(`node src/tools/convertEJS.js src/header/index.ejs build/index.html`);
+  exec(`node src/tools/convertEJS.js src/header/index.ejs build/index.html`);
 });
 
 task("build_client", () => {
 	const props = getProperties();
 // npx webpack --mode=production --config src/config/webpack.client.js
-  cp.execSync(`npx parcel build src/header/Header.tsx -d build/${props.cache_name} --cache-dir build/.cache --out-file app_header.min.js`);
+  exec(`npx parcel build src/header/Header.tsx -d build/${props.cache_name} --cache-dir build/.cache --out-file app_header.min.js`);
 });
 
 task("build_server", () => {
 // npx webpack --mode=production --config src/config/webpack.client.js
-  cp.execSync(`npx parcel build src/server/local.ts -d build/server --target=node --cache-dir build/.cache --out-file local.js`);
+  exec(`npx parcel build src/server/local.ts -d build/server --target=node --cache-dir build/.cache --out-file local.js`);
 	fs.writeFileSync("build/start_server.sh", `node build/server/local.js`, {
 		mode: 0o776,
 		encoding: "utf8",
@@ -103,7 +145,7 @@ task("build_server", () => {
 
 task("build_in_docker", () => {
 	const props = getProperties();
-	cp.execSync(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep build && ls -laR /app/build'`);
+	exec(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep build && ls -laR /app/build'`);
 });
 
 task("build_ci", series("build_docker", "build_in_docker"));
@@ -118,7 +160,7 @@ task("test", () => {
 
 task("test_ci", () => {
 	const props = getProperties();
-	cp.execSync(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep test'`);
+	exec(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep test'`);
 });
 
 
@@ -129,12 +171,12 @@ task("deploy", () => {
 
 task("deploy_ci", () => {
 	const props = getProperties();
-	cp.execSync(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep deploy'`);
+	exec(`docker run --rm ${props.docker_run_args} /bin/bash -c 'makep deploy'`);
 });
 
 
 // Task Group 5: run
 
 task("run_auth", () => {
-	cp.execSync(`cd src && tsc && cd .. && node build/auth/local.js`);
+	exec(`cd src && tsc && cd .. && node build/auth/local.js`);
 });
