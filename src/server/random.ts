@@ -1,6 +1,6 @@
 
 import Express from "express";
-import * as Data from "../data/linked_product_advert.json";
+import * as Data from "../data/linked_product_1.json";
 
 const app = Express();
 

@@ -1,11 +1,23 @@
 <html>
   <head>
     <title>Linked Product Page</title>
+    <style>
+      .lpp-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .lpp-row img {
+        margin: 0 20px 20px 0;
+        width: 150px;
+      }
+    </style>
   </head>
   <body>
     <div>
       <div>
-        <%- include("./OfferList"); %>
+        <%- include("./OfferList") %>
+        <%- include("./Paginator") %>
       </div>
     </div>
   </body>

@@ -6,7 +6,7 @@ import Random from "./random";
 
 const app = Express();
 
-app.use(Express.static(process.cwd() + "/build/public"));
+app.use("/assets/", Express.static(process.cwd() + "/build/assets/"));
 app.use(Header);
 app.use(LPP);
 app.use(Random);
