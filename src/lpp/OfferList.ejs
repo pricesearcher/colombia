@@ -1,0 +1,9 @@
+<div>
+<%
+  body.products[0].forEach((offer) => {
+%>
+<%- include("OfferRow", { offer }) %>
+<%
+  });
+%>
+</div>

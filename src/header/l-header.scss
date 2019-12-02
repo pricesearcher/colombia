@@ -1,0 +1,137 @@
+
+@import '../base/variables.scss';
+@import "../header/variables.scss";
+
+
+$breakpoint-01-min: 446px;
+$breakpoint-02-min: 684px;
+$breakpoint-03-min: 876px;
+
+$breakpoint-00-max: $breakpoint-01-min - 1;
+$breakpoint-01-max: $breakpoint-02-min - 1;
+$breakpoint-02-max: $breakpoint-03-min - 1;
+
+
+.l-header {
+  background-color: $header-background-color;
+  @media print {
+    background-color: white;
+    width: 100%;
+    height: 67px;
+  }
+  a, a:hover, a:active {
+    outline: none;
+  }
+  &.h-header-home-page {
+    background-color: transparent;
+  }
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0; // to support 2nd-row diff background at mobile
+    @media (min-width: $large-monitor-min-width) {
+      max-width: 95%;
+    }
+    @media print {
+      display: none;
+    }
+    & > div {
+      box-sizing: content-box;
+      flex: 0 0 auto;
+    }
+    & > div:nth-child(1) { // PS Icon
+      height: 33px;
+      padding: 17px 10.65px 14px 10px; // 10.65px = 32px * 0.33281
+      & a {
+        display: block;
+      }
+      & img {
+        width: 32px;
+      }
+    }
+    & > div:nth-child(2) { // PS Logo Text
+      min-width: 40px;
+      padding: 20px 30px 22px 0;
+      & > a {
+        display: block;
+        width: 156.9px; // 32px * 4.90325
+      }
+      @media (max-width: $breakpoint-01-max) {
+        flex-grow: 1; // shift to the left in mobile
+      }
+      @media (min-width: $breakpoint-01-min) and (max-width: $tablet-max-width) {
+      // @media (min-width: $breakpoint-02-min) and (max-width: $tablet-max-width) {
+        display: none;
+      }
+      @media (max-width: $mobile-max-width) {
+        padding: 21px 10px 22px 0;
+      }
+    }
+    & > div:nth-child(3) { // Burger Menu
+      padding: 8px 5px 0 0;
+      @media (min-width: $breakpoint-01-min) {
+        order: 5;
+      }
+      @media (min-width: $breakpoint-02-min) {
+        display: none;
+      }
+    }
+    & > div:nth-child(4) { // Search Bar
+      flex: 1 0 300px;
+      & > div { // take up no space if no content
+        margin: 12px;
+        @media (min-width: $large-monitor-min-width) {
+          margin: 12px 0;
+        }
+      }
+      @media (max-width: $breakpoint-00-max) {
+        background-color: $pablo-blue;
+      }
+    }
+    & > div:nth-child(5) { // Categories Link
+      line-height: 26px; // centres text vertically
+      padding: 15px 0 15px 25px;
+      @media (max-width: $breakpoint-01-max) {
+        display: none;
+      }
+      @media (max-width: $tablet-max-width) {
+        padding: 15px 0 15px 10px;
+      }
+      & div.dropdown-menu {
+        width: 220px;
+      }
+    }
+    & > div:nth-child(6) { // Brands Link
+      line-height: 26px; // centres text vertically
+      padding: 15px 0 15px 25px;
+      @media (max-width: $breakpoint-01-max) {
+        display: none;
+      }
+      @media (max-width: $tablet-max-width) {
+        padding: 15px 0 15px 10px;
+      }
+    }
+    & > div:nth-child(7) { // Retailers Link
+      line-height: 26px; // centres text vertically
+      padding: 15px 0 15px 25px;
+      @media (max-width: $breakpoint-01-max) {
+        display: none;
+      }
+      @media (max-width: $tablet-max-width) {
+        padding: 15px 0 15px 10px;
+      }
+    }
+    & > div:nth-child(8) { // Country Selector
+      padding: 15px 10px 15px 25px;
+      @media (max-width: $breakpoint-01-max) {
+        display: none;
+      }
+      @media (max-width: $tablet-max-width) {
+        padding: 15px 10px 15px 15px;
+      }
+    }
+  }
+}

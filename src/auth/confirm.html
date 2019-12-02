@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Identity Provider</title>
+  </head>
+  <style>
+    .main {
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <h1>Identity Provider</h1>
+    <div class="main">
+      <p>
+        This is where the user would authenticate him/herself (i.e. enter user name and password)
+        if not already done so. We assume this has already been done.
+      </p>
+      <p>
+        Are you sure you want to allow
+        <b id="app_name"></b>
+        to be authenticated by us?
+      </p>
+    </div>
+    <div><a href="yes">Yes</a></div>
+    <div><a href="no">No</a></div>
+    <script>
+      const params = {};
+      if (location.search && (location.search.length > 1)) {
+        location.search.substr(1).split("&").forEach((part) => {
+          const pair = part.split("=");
+          params[decodeURIComponent(pair[0])] = (pair.length > 1) ? decodeURIComponent(pair[1]) : null;
+        });
+      }
+      document.querySelector("#app_name").innerHTML = (params.app || "Unknown");
+      document.querySelector("a[href='yes']").setAttribute("href", "yes?state=" + params.state);
+    </script>
+  </body>
+</html>
