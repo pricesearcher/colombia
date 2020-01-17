@@ -65,7 +65,6 @@ build_server:
 	@echo "⚒ build_server"
 #	npx webpack --mode=production --config src/config/webpack.client.js
 	npx parcel build src/server/local.ts -d build/server --target=node --cache-dir build/.cache --out-file local.js
-	npx parcel build src/auth/local.ts   -d build/server --target=node --cache-dir build/.cache --out-file auth.js
 
 jenkins_build: build_docker
 	@echo "⚒ jenkins_build"
@@ -104,10 +103,6 @@ start_server:
 
 stop_server:
 	@echo "⚒ stop_server"
-
-start_auth:
-	@echo "⚒ start_server"
-	node build/server/auth.js
 
 watch:
 	@echo "⚒ watch"
