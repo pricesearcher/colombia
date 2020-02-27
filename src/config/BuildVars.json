@@ -1,0 +1,26 @@
+
+{
+  "cache_name": {
+    "prod"   : "set-in-build-lib",
+    "nonprod": "set-in-build-lib",
+    "dev"    : "set-in-build-lib"
+  },
+  "domain": {
+    "prod"   : "www.pricesearcher.com",
+    "nonprod": "npd.pricesearcher.com",
+    "dev"    : "localhost"
+  },
+  "path_prefix": {
+    "prod"   : "set-in-build-lib",
+    "nonprod": "set-in-build-lib",
+    "dev"    : "set-in-build-lib"
+  },
+  "port": {
+    "dev"    : 8081
+  },
+  "protocol": {
+    "prod"   : "https",
+    "nonprod": "https",
+    "dev"    : "http"
+  }
+}
