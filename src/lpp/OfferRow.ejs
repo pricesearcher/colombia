@@ -1,22 +1,21 @@
-<div id="<%= offer.product_id %>">
+<div id="<%= offer.product_id %>" class="lpp-row">
   <div>
-  <!--
-    <img alt="product image" draggable="false" src="https://imageproxy2.pricesearcher.com/<%= offer.ps_image_suffix %>" />
-  -->
-  </div>
-  <div>
-    <a href="offer.merchant_deep_link"><%= offer.product_name %></a>
+    <img alt="product image" draggable="false" src="<%= offer.ps_image_suffix %>" />
   </div>
   <div>
     <div>
-      <a href="http://<%= offer.merchant_key %>"><%= offer.merchant %></a>,
-      <%= offer.merchant_star_rating %> stars, based on <%= offer.merchant_review_count %> reviews
+      <a href="offer.merchant_deep_link"><%= offer.product_name %></a>
     </div>
-  </div>
-  <div>
     <div>
-      <span>&pound;<%= offer.latest_price %></span>
+      <div>
+        <a href="http://<%= offer.merchant_key %>"><%= offer.merchant %></a>,
+        <%= offer.merchant_star_rating %> stars, based on <%= offer.merchant_review_count %> reviews
+      </div>
+    </div>
+    <div>
+      <div>
+        <span>&pound;<%= offer.latest_price %></span>
+      </div>
     </div>
   </div>
 </div>
-<br />

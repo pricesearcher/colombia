@@ -8,7 +8,8 @@ const app = Express();
 export default app;
 
 app.get("/lpp", (req: Express.Request, res: Express.Response) => {
-  const data     = Fs.readFileSync("src/data/linked_product_advert.json", {
+  const page = parseInt(req.query.p || "1", 10);
+  const data     = Fs.readFileSync(`src/data/linked_product_${page}.json`, {
     encoding: "utf8",
   });
   const template_file = "src/lpp/LinkedProductPage.ejs";

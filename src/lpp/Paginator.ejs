@@ -1,0 +1,8 @@
+<div>
+  <% if (body.pages.current > 1) { %>
+    <a href="?p=<%= body.pages.current - 1 %>">Prev</a>
+  <% } %>
+  <% if (body.pages.current < body.pages.total) { %>
+    <a href="?p=<%= body.pages.current + 1 %>">Next</a>
+  <% } %>
+</div>

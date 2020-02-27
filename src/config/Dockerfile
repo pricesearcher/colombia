@@ -1,7 +1,7 @@
 
 FROM node:10-stretch
 
-RUN apt-get update && apt-get install -yq libgconf-2-4 zip psmisc nano git-all
+RUN apt-get update && apt-get install -yq libgconf-2-4 make zip psmisc nano git-all
 
 RUN mkdir -p /app/build
 
