@@ -1,108 +1,59 @@
 
 # Standard Makefile variables
 
-APP_NAME = colombia
 ENV ?= dev
 PWD = $(shell pwd)
+APP_NAME = $(shell basename `pwd`)
 REGION = eu-west-1
-CACHE_NAME := $(shell node src/tools/getCacheName.js)
 GIT_BRANCH ?= $(shell git rev-parse --abbrev-ref HEAD)
-DOCKER_IMAGE_NAME = pricesearcher/$(APP_NAME)_$(GIT_BRANCH)
+DOCKER_IMAGE_NAME = pricesearcher/$(APP_NAME)-$(GIT_BRANCH)
 DOCKER_TTY = -it
 ifdef OS
     DOCKER_TTY = -i
 endif
 DOCKER_RUN_ARGS = \
-		-v "$(PWD)/src":/app/src \
-		-v "$(PWD)/build":/app/build \
-		-v /var/run/docker.sock:/var/run/docker.sock \
-		--user $(shell id -u):$(shell id -g) \
-		--env GIT_BRANCH=$(GIT_BRANCH) \
-		--env ENV=$(ENV) \
-		$(DOCKER_IMAGE_NAME)
+	-v "$(PWD)/src":/app/src \
+	-v "$(PWD)/dist":/app/dist \
+	-v /var/run/docker.sock:/var/run/docker.sock \
+	--env ps_branch=$(GIT_BRANCH) \
+	--env ps_env=$(ENV) \
+	--env AWS_ACCESS_KEY_ID=$(AWS_ACCESS_KEY_ID) \
+	--env AWS_DEFAULT_REGION=$(REGION) \
+	--env AWS_SECRET_ACCESS_KEY=$(AWS_SECRET_ACCESS_KEY) \
+	$(DOCKER_IMAGE_NAME)
+
 
 
 # Make Target Group 1: clean
 
-clean:
-	@echo "⚒ clean"
-	rm -fr build/*
-	rm -fr build/.cache/*
-
 jenkins_clean:
 	@echo "⚒ jenkins_clean"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep clean"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "src/config/build.js clean"
 
-
-# Make Target Group 2: build
-
-build: build/vars.json build_client build_server build_assets
-	@echo "⚒ build"
 
 build_docker:
 	@echo "⚒ build_docker"
 	docker build \
+		--build-arg GITHUB_TOKEN=$(GITHUB_TOKEN) \
 	  --file src/config/Dockerfile \
 		--tag $(DOCKER_IMAGE_NAME) .
 
-build/vars.json:
-	@echo "⚒ build/vars.json"
-	node src/tools/setVars.js $(ENV) $(GIT_BRANCH) $(CACHE_NAME)
-	cat build/vars.json
-
-build_assets:
-	@echo "⚒ build_assets"
-#	cp src/header/index.html build/index.html
-	cp -r src/assets build/assets
-	node src/tools/convertEJS.js src/header/index.ejs build/index.html
-
-build_client:
-	@echo "⚒ build_client"
-#	npx webpack --mode=production --config src/config/webpack.client.js
-	npx parcel build src/header/Header.tsx -d build/$(CACHE_NAME) --cache-dir build/.cache --out-file app_header.min.js
-
-build_server:
-	@echo "⚒ build_server"
-#	npx webpack --mode=production --config src/config/webpack.client.js
-	npx parcel build src/server/local.ts -d build/server --target=node --cache-dir build/.cache --out-file local.js
 
 jenkins_build: build_docker
 	@echo "⚒ jenkins_build"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep build && ls -laR /app/build"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "src/config/build.js build"
 
-
-# Make Target Group 3: test
-
-test:
-	@echo "⚒ test"
 
 jenkins_test:
 	@echo "⚒ jenkins_test"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep test"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "src/config/build.js test"
 
-
-# Make Target Group 4: deploy
-
-deploy:
-	@echo "⚒ deploy"
 
 jenkins_deploy:
 	@echo "⚒ jenkins_deploy"
-	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "makep deploy"
+	docker run --rm $(DOCKER_RUN_ARGS) /bin/bash -c "src/config/build.js deploy"
 
-
-# Make Target Group 5: start/stop/watch
 
 start_docker:
 	@echo "⚒ start_docker"
-	docker run $(DOCKER_TTY) --rm -p 8081:8081 -p 8084:8084 -p 8085:8085 $(DOCKER_RUN_ARGS) /bin/bash
-
-start_server:
-	@echo "⚒ start_server"
-	node build/server/local.js
-
-stop_server:
-	@echo "⚒ stop_server"
-
-watch:
-	@echo "⚒ watch"
+	docker run $(DOCKER_TTY) --rm -p 8081:8081 $(DOCKER_RUN_ARGS) /bin/bash --login
